@@ -1,6 +1,6 @@
-Use Case Assumption:
-- Apache Airflow as orchestrator and scheduler pipeline.
+Below is use case assumption for context on why I created the pipeline like that.
 - Batching data.
+- Apache Airflow as orchestrator and scheduler pipeline.
 - Apache airflow task trigger ingestion tools to do all query in layer_1 folder to pull data from data sources.
 - Apache airflow task trigger BigQuery operator to do bigquery job for query in following layer folder.
 
