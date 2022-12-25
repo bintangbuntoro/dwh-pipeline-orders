@@ -1,3 +1,9 @@
+Use Case Assumption:
+- Apache Airflow as orchestrator and scheduler pipeline.
+- Batching data.
+- Apache airflow task trigger ingestion tools to do all query in layer_1 folder to pull data from data sources.
+- Apache airflow task trigger BigQuery operator to do bigquery job for query in following layer folder.
+
 Data Lake process:
 - layer 1 : contains all query from database sources.
 - layer 2 : contains all transformation query from layer 1
